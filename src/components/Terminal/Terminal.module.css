@@ -1,0 +1,23 @@
+.terminal {
+  margin-top: 10px;
+  background-color: #011627;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  border: 0.5rem solid #011627;
+  box-shadow: 0 0 10px 7px rgb(255 255 255 / 10%);
+  border-top: none;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 9px;
+  position: relative;
+  z-index: -2;
+}
+
+.termcontent {
+  margin: 20px;
+}
+
+.greeting {
+  color: #db7638;
+  text-align: left;
+  font-size: 16.5px;
+}
