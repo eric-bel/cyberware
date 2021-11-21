@@ -3,7 +3,7 @@ import EntryTime from "./EntryTime/EntryTime";
 import styles from "./Terminal.module.css";
 import logo from "./../../assets/logo3.png";
 import About from "./About/About";
-import TypeCommand from "./TypeCommand/TypeCommand";
+// import TypeCommand from "./TypeCommand/TypeCommand";
 
 const Terminal = (props) => {
   return (
@@ -12,14 +12,14 @@ const Terminal = (props) => {
         <div className={styles.termcontent}>
           <div className={styles.greeting}>
             {/* Добро пожаловать на сайт онлайн школы программирования{" "} */}
-            {" > "}D\Welcome to\Programming school
+            {" > "}D/Welcome to/sProgramming school
             <img className={styles.logo} src={logo} alt="logo" />
             <div className={styles.logotitle}>IT Escorts.</div>
           </div>
           <EntryTime />
           <hr/>
           <About />
-          <TypeCommand />
+          {/* <TypeCommand /> */}
         </div>
       </div>
     </>
