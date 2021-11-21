@@ -1,0 +1,13 @@
+.clock {
+  color: #db7638;
+  display: flex;
+  align-items: center;
+}
+
+.currentdate {
+  color: #fce26e;
+  margin-left: 10px;
+  font-size: 14px;
+  word-spacing: 7px;
+  letter-spacing: 7px;
+}

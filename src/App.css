@@ -11,12 +11,12 @@
 }
 
 .grid {
-  width: 70%;
+  width: 75%;
   height: 650px;
   display: grid;
   text-align: center;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 30px 470px;
+  grid-template-rows: 30px 550px;
   justify-content: center;
   align-content: center;
   column-gap: 20px;
