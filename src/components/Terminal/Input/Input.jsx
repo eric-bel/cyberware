@@ -1,30 +1,27 @@
 import React from "react";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import styles from "./Input.module.css";
 
 const Input = () => {
   const [state, setState] = useState("");
-  const showValue = (e) => {
+  const showInputValue = (e) => {
     setState(e.target.value);
   };
-  useEffect(() => {
-    console.log(state);
-  }, [state]);
+  // useEffect(() => {}, [state]);
   return (
     <>
       <div className={styles.inputwrap}>
         <form className={styles.form}>
-          <label className={styles.label}> {"> "}введите комманду $</label>
+          <label className={styles.label}> {"> "}Командная строка $ :</label>
 
           <div className={styles.cursor}>
             <input
-              className={styles.getcommand}
+              className={styles.inputgetcommand}
               name="getcommand"
               type="text"
-              // list="list"
               autoFocus={false}
               value={state}
-              onChange={showValue}
+              onChange={showInputValue}
               autoComplete="off"
             />
             <i></i>

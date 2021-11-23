@@ -3,10 +3,19 @@
 }
 
 .form .label {
+  margin-right: 5px;
+  color: #fec303;
+  font-size: 15px;
+  align-items: flex-end;
+}
+
+/* .form .typecommand {
   margin-right: 15px;
   color: #fec303;
   font-size: 15px;
-}
+  color: transparent;
+  text-shadow: 0 0 0 #2196f3;
+} */
 
 .label ::before {
   content: icon;
@@ -16,10 +25,11 @@
   display: flex;
 }
 
-.form .getcommand {
-  width: 400px;
-  background-color: inherit;
-  border: none;
+.form .inputgetcommand {
+  width: 450px;
+  height: 20px;
+  background-color: #011627;
+  border-style: none;
   color: #149bda;
   font-size: 15px;
   letter-spacing: 3px;
@@ -27,12 +37,11 @@
   overflow: hidden;
   outline-color: #011627;
   outline-style: none;
-  width: auto;
   box-sizing: border-box;
   cursor: text;
 }
-
-.cursor {
+/* =============== cursor start ================== */
+/* .cursor {
   position: relative;
 }
 
@@ -42,7 +51,6 @@
   height: 90%;
   background-color: #149bda;
   left: 2px;
-  /* top: 10%; */
   animation-name: blink;
   animation-duration: 900ms;
   animation-iteration-count: infinite;
@@ -60,4 +68,6 @@
   to {
     opacity: 0;
   }
-}
+} */
+
+/* =============== cursor end ================== */

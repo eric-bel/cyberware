@@ -1,5 +1,5 @@
 import React from "react";
-import HeaderBtnInTerminal from "./HeaderBtn/HeaderBtnInTerminal";
+import HeaderBtnInTerminal from "./HeaderBtnInTerminal/HeaderBtnInTerminal";
 
 const Header = (props) => {
   return (

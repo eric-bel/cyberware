@@ -9,8 +9,8 @@ const TypeCommand = () => {
         {"> "} Для навигации пользуйтесь кнопками выше.
       </div>
       <div className={styles.typecommand}>
-        {">"} Или наберите <span className={styles.span}> "help"</span> и нажмите
-        Enter чтобы увидеть доступные команды.{" "}
+        {">"} Или наберите <span className={styles.span}> "help"</span> в
+        командной строке и нажмите Enter чтобы увидеть доступные команды.{" "}
       </div>
     </>
   );
