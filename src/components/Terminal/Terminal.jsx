@@ -14,7 +14,7 @@ const Terminal = (props) => {
           <div className={styles.greeting}>
             {" > "}D/Welcome to/Programming school
             <img className={styles.logo} src={logo} alt="logo" />
-            <div className={styles.logotitle}>IT Escorts</div>
+            <div className={styles.logotitle}>Terminal</div>
           </div>
           <EntryTime />
           <hr />

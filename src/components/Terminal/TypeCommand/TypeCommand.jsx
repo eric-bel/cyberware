@@ -4,12 +4,13 @@ import styles from "./TypeCommand.module.css";
 const TypeCommand = () => {
   return (
     <>
+      <div className={styles.or}>
+        {" "}
+        {"> "} Для навигации пользуйтесь кнопками выше.
+      </div>
       <div className={styles.typecommand}>
-        {">"} Наберите <span className={styles.span}> "help"</span> чтобы
-        увидеть доступные команды.{" "}
-        <span className={styles.or}>
-          Или пользуйтесь кнопками выше.
-        </span>
+        {">"} Или наберите <span className={styles.span}> "help"</span> и нажмите
+        Enter чтобы увидеть доступные команды.{" "}
       </div>
     </>
   );

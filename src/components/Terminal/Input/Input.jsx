@@ -13,18 +13,22 @@ const Input = () => {
   return (
     <>
       <div className={styles.inputwrap}>
-        <form>
+        <form className={styles.form}>
           <label className={styles.label}> {"> "}введите комманду $</label>
 
-          <input
-            className={styles.getcommand}
-            name="getcommand"
-            type="text"
-            list="list"
-            value={state}
-            placeholder="и нажмите Enter"
-            onChange={showValue}
-          />
+          <div className={styles.cursor}>
+            <input
+              className={styles.getcommand}
+              name="getcommand"
+              type="text"
+              // list="list"
+              autoFocus={false}
+              value={state}
+              onChange={showValue}
+              autoComplete="off"
+            />
+            <i></i>
+          </div>
         </form>
       </div>
     </>

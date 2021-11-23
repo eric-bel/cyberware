@@ -1,17 +1,63 @@
 .inputwrap {
-  margin-top: 32px;
+  margin-top: 25px;
 }
 
-.label {
+.form .label {
   margin-right: 15px;
   color: #fec303;
+  font-size: 15px;
 }
 
 .label ::before {
   content: icon;
 }
 
-.getcommand {
+.form {
+  display: flex;
+}
+
+.form .getcommand {
+  width: 400px;
   background-color: inherit;
   border: none;
+  color: #149bda;
+  font-size: 15px;
+  letter-spacing: 3px;
+  font-family: "JetBrains Mono", monospace;
+  overflow: hidden;
+  outline-color: #011627;
+  outline-style: none;
+  width: auto;
+  box-sizing: border-box;
+  cursor: text;
+}
+
+.cursor {
+  position: relative;
+}
+
+.cursor i {
+  position: absolute;
+  width: 1.5px;
+  height: 90%;
+  background-color: #149bda;
+  left: 2px;
+  /* top: 10%; */
+  animation-name: blink;
+  animation-duration: 900ms;
+  animation-iteration-count: infinite;
+  opacity: 1;
+}
+
+.cursor input:focus + i {
+  display: none;
+}
+
+@keyframes blink {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
 }
