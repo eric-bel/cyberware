@@ -7,7 +7,6 @@ function App() {
     <div className="App">
       <div className="grid">
         <Header />
-        {/* <div className="terminal">Терминал</div> */}
         <Terminal />
       </div>
     </div>

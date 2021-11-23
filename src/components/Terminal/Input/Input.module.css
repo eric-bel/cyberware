@@ -1,0 +1,17 @@
+.inputwrap {
+  margin-top: 32px;
+}
+
+.label {
+  margin-right: 15px;
+  color: #fec303;
+}
+
+.label ::before {
+  content: icon;
+}
+
+.getcommand {
+  background-color: inherit;
+  border: none;
+}

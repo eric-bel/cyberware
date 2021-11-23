@@ -1,24 +1,18 @@
 import React from "react";
-import Typical from "react-typical";
+import styles from "./TypeCommand.module.css";
 
-const TypeCommand = (props) => {
-    
+const TypeCommand = () => {
   return (
     <>
-      <Typical
-        steps={[
-          `${() => "callback"}`,
-          1000,
-          `> Наберите ${4} чтобы увидеть доступные команды`,
-          1000,
-        ]}
-        loop={6}
-        wrapper="p"
-      />
+      <div className={styles.typecommand}>
+        {">"} Наберите <span className={styles.span}> "help"</span> чтобы
+        увидеть доступные команды.{" "}
+        <span className={styles.or}>
+          Или пользуйтесь кнопками выше.
+        </span>
+      </div>
     </>
   );
 };
-
-setTimeout(TypeCommand(), 3000);
 
 export default React.memo(TypeCommand);

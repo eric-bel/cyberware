@@ -23,7 +23,7 @@ const EntryTime = () => {
   return (
     <>
       <div className={styles.clock}>
-        {" < "}Время входа:{"  "}
+        {" > "}Время входа:{"  "}
         {/* <div className={styles.currentdate}> {new Date().toLocaleString()}</div> */}
         <div className={styles.currentdate}>
           {new Date().toLocaleDateString()} {dateTime.hours}:{dateTime.minutes}:
