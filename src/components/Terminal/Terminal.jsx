@@ -2,17 +2,18 @@ import React from "react";
 import EntryTime from "./EntryTime/EntryTime";
 import styles from "./Terminal.module.css";
 import logo from "./../../assets/logo3.png";
-import About from "./About/About";
+// import About from "./About/About";
 import TypeCommand from "./TypeCommand/TypeCommand";
 import Input from "./Input/Input";
-// import HeaderBtnInTerminal from "./HeaderInTerminal/HeaderBtn/HeaderBtnInTerminal";
 
 const Terminal = (props) => {
+
+  
+
   return (
     <>
       <div className={styles.terminal}>
         <div className={styles.termcontent}>
-          {/* <HeaderBtnInTerminal /> */}
           <div className={styles.greeting}>
             {" > "}D/Welcome to/Programming school
             <img className={styles.logo} src={logo} alt="logo" />
@@ -21,7 +22,7 @@ const Terminal = (props) => {
           <EntryTime />
           <hr />
           <TypeCommand />
-          <About />
+          {/* <About /> */}
           <Input />
         </div>{" "}
       </div>

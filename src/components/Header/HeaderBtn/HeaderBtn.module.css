@@ -2,21 +2,21 @@
 .programms,
 .faq,
 .contacts {
+  margin: 10px 30px 4px 30px;
   background-color: #011627;
-  /* background-color: white; */
-  /* border-top: 0.5rem solid #011627; */
-  box-shadow: inset 0 0px 10px 2px rgb(255 255 255 / 10%);
-  width: 100%;
-  border-bottom: none;
+  width: 75%;
+  /* border-bottom: none; */
   color: #fff;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-radius: 5px;
   border-style: none;
-  font-family: "Space Mono", monospace;
-  font-size: medium;
+  font-family: "JetBrains Mono", monospace;
+  font-size: small;
   cursor: pointer;
   word-spacing: 2px;
   letter-spacing: 1px;
+  /* border-top: 1px solid brown; */
+  /* border-bottom: 1px solid brown; */
+  box-shadow: inset 0 0px 10px 2px rgb(255 255 255 / 10%);
 }
 
 .about {
@@ -31,10 +31,11 @@
 .contacts {
   color: #5ae1e5ff;
 }
+
 /* ___________________   BTN HOVER    ________________________ */
 .about:hover {
   border: 1px solid;
-  box-shadow: inset 0 0 15px rgba(255, 255, 255, 0.5),
+  box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.5),
     0 0 20px rgba(255, 255, 255, 0.2);
   outline-color: rgba(255, 255, 255, 0);
   outline-offset: 15px;
@@ -42,7 +43,7 @@
 }
 .programms:hover {
   border: 1px solid;
-  box-shadow: inset 0 0 15px rgba(255, 255, 255, 0.5),
+  box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.5),
     0 0 20px rgba(255, 255, 255, 0.2);
   outline-color: rgba(255, 255, 255, 0);
   outline-offset: 15px;
@@ -50,7 +51,7 @@
 }
 .faq:hover {
   border: 1px solid;
-  box-shadow: inset 0 0 15px rgba(255, 255, 255, 0.5),
+  box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.5),
     0 0 20px rgba(255, 255, 255, 0.2);
   outline-color: rgba(255, 255, 255, 0);
   outline-offset: 15px;
@@ -58,7 +59,7 @@
 }
 .contacts:hover {
   border: 1px solid;
-  box-shadow: inset 0 0 15px rgba(255, 255, 255, 0.5),
+  box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.5),
     0 0 20px rgba(255, 255, 255, 0.2);
   outline-color: rgba(255, 255, 255, 0);
   outline-offset: 15px;
