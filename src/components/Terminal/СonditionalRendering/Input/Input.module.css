@@ -40,34 +40,3 @@
   box-sizing: border-box;
   cursor: text;
 }
-/* =============== cursor start ================== */
-/* .cursor {
-  position: relative;
-}
-
-.cursor i {
-  position: absolute;
-  width: 1.5px;
-  height: 90%;
-  background-color: #149bda;
-  left: 2px;
-  animation-name: blink;
-  animation-duration: 900ms;
-  animation-iteration-count: infinite;
-  opacity: 1;
-}
-
-.cursor input:focus + i {
-  display: none;
-}
-
-@keyframes blink {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
-  }
-} */
-
-/* =============== cursor end ================== */

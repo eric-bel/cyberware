@@ -3,9 +3,10 @@ import { useState } from "react";
 import styles from "./Input.module.css";
 
 const Input = () => {
-  const [state, setState] = useState("");
+  const [stateInputValue, setStateInputValue] = useState("");
+  // const [stateUserCommand, setUserCommand] = useState("");
   const showInputValue = (e) => {
-    setState(e.target.value);
+    setStateInputValue(e.target.value);
   };
   // useEffect(() => {}, [state]);
   return (
@@ -14,18 +15,15 @@ const Input = () => {
         <form className={styles.form}>
           <label className={styles.label}> {"> "}Командная строка $ :</label>
 
-          <div className={styles.cursor}>
-            <input
-              className={styles.inputgetcommand}
-              name="getcommand"
-              type="text"
-              autoFocus={false}
-              value={state}
-              onChange={showInputValue}
-              autoComplete="off"
-            />
-            <i></i>
-          </div>
+          <input
+            className={styles.inputgetcommand}
+            name="getcommand"
+            type="text"
+            autoFocus={false}
+            value={stateInputValue}
+            onChange={showInputValue}
+            autoComplete="off"
+          />
         </form>
       </div>
     </>
