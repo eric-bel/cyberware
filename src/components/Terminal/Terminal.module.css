@@ -1,4 +1,5 @@
 .terminal {
+  display: grid;
   margin: 5px 30px 27px 30px;
   /* margin-top: 10px; */
   background-color: #011627;
@@ -10,7 +11,7 @@
   position: relative;
   color: #db7638;
   border-radius: 10px;
-  
+  grid-auto-rows: minmax(400px, auto);
 }
 
 .termcontent {
@@ -27,8 +28,10 @@
 
 .logo {
   margin-left: 8px;
-  width: 33px;
-  border-radius: 6px;
+  width: 88px;
+  /* border-radius: 6px; */
+  text-align: end;
+  
 }
 
 .logotitle {

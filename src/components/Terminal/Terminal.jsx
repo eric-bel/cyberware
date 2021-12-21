@@ -1,9 +1,9 @@
 import React from "react";
 import EntryTime from "./EntryTime/EntryTime";
 import styles from "./Terminal.module.css";
-import logo from "./../../assets/logo3.png";
+// import logo from "./../../assets/logo2.png";
 import TypeCommand from "./TypeCommand/TypeCommand";
-import ConditionalRendering from "./СonditionalRendering/СonditionalRendering"
+import ConditionalRendering from "./СonditionalRendering/СonditionalRendering";
 
 const Terminal = (props) => {
   return (
@@ -12,8 +12,8 @@ const Terminal = (props) => {
         <div className={styles.termcontent}>
           <div className={styles.greeting}>
             {" > "}D/Welcome to/Programming school
-            <img className={styles.logo} src={logo} alt="logo" />
-            <div className={styles.logotitle}>Terminal</div>
+            <div className={styles.logotitle}>Cyber Ware</div>
+            {/* <img className={styles.logo} src={logo} alt="logo" /> */}
           </div>
           <EntryTime />
           <hr />

@@ -12,7 +12,6 @@ const СonditionalRendering = (props) => {
       e.preventDefault();
       if (state.inputValue.toLowerCase() === "about") {
         const res = [...state.result];
-        // res.push("About About About About");
         res.push(<About />);
         setState((prev) => ({
           result: res,
@@ -30,7 +29,7 @@ const СonditionalRendering = (props) => {
     }
   };
 
-  const hadleInput = (e) => {
+  const showInputValue = (e) => {
     e.preventDefault();
     setState((prev) => ({
       ...prev,
@@ -50,7 +49,7 @@ const СonditionalRendering = (props) => {
           autoFocus={false}
           autoComplete="off"
           value={state.inputValue}
-          onChange={hadleInput}
+          onChange={showInputValue}
           onKeyDown={nandlePress}
         />
       </form>

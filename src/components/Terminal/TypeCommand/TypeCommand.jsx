@@ -9,8 +9,8 @@ const TypeCommand = () => {
         {"> "} Для навигации пользуйтесь кнопками выше.
       </div>
       <div className={styles.typecommand}>
-        {">"} Или наберите в командной строке одну из следующих доступных
-        комманд <span className={styles.span}> "about",</span>
+        {">"} Или наберите в командной строке одну из следующих комманд{" "}
+        <span className={styles.span}> "about",</span>
         <span className={styles.span}> "programm",</span>
         <span className={styles.span}> "faq",</span>
         <span className={styles.span}> "contacts",</span> и нажмите Enter.{" "}
