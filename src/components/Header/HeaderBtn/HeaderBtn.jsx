@@ -1,16 +1,23 @@
 import React from "react";
 import styles from "./HeaderBtn.module.css";
+import { NavLink } from "react-router-dom";
 
 const HeaderBtn = (props) => {
   return (
     <>
-      <input type="button" value="О нас" className={styles.about}></input>
-      <input type="button" value="Программа курса" className={styles.programms}></input>
-      <input type="button" value="FAQ" className={styles.faq}></input>
-      <input type="button" value="Контакты" className={styles.contacts}></input>
-      {/* <div className={styles.programms}>Программа курса</div>
-      <div className={styles.faq}>FAQ</div>
-      <div className={styles.contacts}>Контакты</div> */}
+      <NavLink to={"/about"} className={styles.about}>
+        О нас
+      </NavLink>
+      <NavLink to={"/roadmap"} className={styles.programms}>
+        Программа курса
+      </NavLink>
+
+      <NavLink to={"/faq"} className={styles.faq}>
+        FAQ
+      </NavLink>
+      <NavLink to={"/contacts"} className={styles.contacts}>
+        Контакты
+      </NavLink>
     </>
   );
 };
