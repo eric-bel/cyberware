@@ -1,6 +1,6 @@
-import { Routes, Route} from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import React from "react";
-import EntryTime from "./EntryTime/EntryTime";
+// import EntryTime from "./EntryTime/EntryTime";
 import styles from "./Terminal.module.css";
 // import logo from "./../../assets/logo2.png";
 import TypeCommand from "./TypeCommand/TypeCommand";
@@ -8,6 +8,7 @@ import ConditionalRendering from "./СonditionalRendering/СonditionalRendering"
 import About from "./СonditionalRendering/About/About";
 import Roadmap from "./СonditionalRendering/Roadmap/Roadmap";
 import HeaderBtn from "../Header/HeaderBtn/HeaderBtn";
+import Contacts from "./СonditionalRendering/Contacts/Contacts";
 
 const Terminal = (props) => {
   return (
@@ -16,12 +17,12 @@ const Terminal = (props) => {
       <div className={styles.terminal}>
         <div className={styles.termcontent}>
           <div className={styles.greeting}>
-            {" > "}D/Welcome to/Programming school
+            {" > "}Welcome to programming school
             <div className={styles.logotitle}>Cyber Ware</div>
             {/* <img className={styles.logo} src={logo} alt="logo" /> */}
           </div>
 
-          <EntryTime />
+          {/* <EntryTime /> */}
           <hr />
           <TypeCommand />
           <ConditionalRendering />
@@ -29,6 +30,7 @@ const Terminal = (props) => {
             <Route path={"/about"} element={<About />} />
             <Route path={"/roadmap"} element={<Roadmap />} />
             <Route path={"/faq"} element={<div>faq faq faq faq faq</div>} />
+            <Route path={"/contacts"} element={<Contacts />} />
           </Routes>
         </div>{" "}
       </div>

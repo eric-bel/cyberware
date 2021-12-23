@@ -26,14 +26,6 @@
   align-items: center;
 }
 
-.logo {
-  margin-left: 8px;
-  width: 88px;
-  /* border-radius: 6px; */
-  text-align: end;
-  
-}
-
 .logotitle {
   margin-left: 7px;
   color: aqua;

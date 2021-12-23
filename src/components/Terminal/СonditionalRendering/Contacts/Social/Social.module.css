@@ -1,0 +1,31 @@
+.social {
+  margin-top: 35px;
+  text-align: center;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.telegram {
+  color: #0088cc;
+}
+
+.telegram :hover {
+  color: #3da5da;
+}
+
+.instagram {
+  color: #e1306c;
+  overflow: hidden;
+}
+
+.instagram :hover {
+  color: #f06895;
+}
+
+.logo {
+  width: 185px;
+}
