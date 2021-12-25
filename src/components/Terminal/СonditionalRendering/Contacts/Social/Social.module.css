@@ -1,5 +1,5 @@
 .social {
-  margin-top: 35px;
+  margin-top: 55px;
   text-align: center;
 }
 
@@ -26,6 +26,15 @@
   color: #f06895;
 }
 
+.facebook {
+  color: #3b5998;
+}
+
+.facebook :hover {
+  color: #4764a1;
+}
+
 .logo {
-  width: 185px;
+  /* width: 185px; */
+  height: 75px;
 }

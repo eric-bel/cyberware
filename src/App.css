@@ -22,7 +22,7 @@
 
 .terminalwrap {
   justify-content: center;
-  width: 1000px;
+  max-width: 1000px;
   display: grid;
   /* height: 500px; */
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -39,29 +39,10 @@
   margin-left: 40px;
   margin-right: 40px;
 }
-/* 
-@media (max-width: 800px) {
+
+/* @media (max-width: 1600px) {
   .terminalwrap {
-    width: 800px;
-  }
-}
-@media (max-width: 700px) {
-  .terminalwrap {
-    width: 700px;
-  }
-}
-@media (max-width: 600px) {
-  .App {
-    width: 600px;
-  }
-}
-@media (max-width: 500px) {
-  .App {
-    width: 500px;
-  }
-}
-@media (max-width: 400px) {
-  .App {
-    width: 400px;
+    max-width: 1600px;
   }
 } */
+/*  */

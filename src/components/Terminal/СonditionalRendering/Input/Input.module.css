@@ -8,6 +8,11 @@
   font-size: 15px;
   align-items: flex-end;
 }
+@media (max-width: 480px) {
+  .label {
+    color: red;
+  }
+}
 
 /* .form .typecommand {
   margin-right: 15px;

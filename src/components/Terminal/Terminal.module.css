@@ -1,6 +1,6 @@
 .terminal {
   display: grid;
-  margin: 5px 30px 27px 30px;
+  margin-bottom: 40px;
   /* margin-top: 10px; */
   background-color: #011627;
   grid-column-start: 1;

@@ -5,17 +5,41 @@ import { NavLink } from "react-router-dom";
 const HeaderBtn = (props) => {
   return (
     <>
-      <NavLink to={"/about"} className={styles.about}>
+      <NavLink
+        to={"/about"}
+        style={(params) => {
+          return { backgroundColor: params.isActive ? "#092133" : "" };
+        }}
+        className={styles.about}
+      >
         О нас
       </NavLink>
-      <NavLink to={"/roadmap"} className={styles.programms}>
+      <NavLink
+        to={"/roadmap"}
+        style={(params) => {
+          return { backgroundColor: params.isActive ? "#092133" : "" };
+        }}
+        className={styles.programms}
+      >
         Программа курса
       </NavLink>
 
-      <NavLink to={"/faq"} className={styles.faq}>
+      <NavLink
+        to={"/faq"}
+        style={(params) => {
+          return { backgroundColor: params.isActive ? "#092133" : "" };
+        }}
+        className={styles.faq}
+      >
         FAQ
       </NavLink>
-      <NavLink to={"/contacts"} className={styles.contacts}>
+      <NavLink
+        to={"/contacts"}
+        style={(params) => {
+          return { backgroundColor: params.isActive ? "#092133" : "" };
+        }}
+        className={styles.contacts}
+      >
         Контакты
       </NavLink>
     </>
