@@ -1,7 +1,7 @@
 
 
+.home,
 .about,
-.programms,
 .faq,
 .contacts {
   margin: 15px 30px 10px 30px;
@@ -27,10 +27,10 @@
   color: red;
 }
 
-.about {
+.home {
   color: #fefefeff;
 }
-.programms {
+.about {
   color: #c0e4b4ff;
 }
 .faq {
@@ -41,7 +41,7 @@
 }
 
 /* ___________________   BTN HOVER    ________________________ */
-.about:hover {
+.home:hover {
   border: 1px solid;
   box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.5),
     0 0 20px rgba(255, 255, 255, 0.2);
@@ -49,7 +49,7 @@
   outline-offset: 15px;
   text-shadow: 1px 1px 2px #427388;
 }
-.programms:hover {
+.about:hover {
   border: 1px solid;
   box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.5),
     0 0 20px rgba(255, 255, 255, 0.2);

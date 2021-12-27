@@ -5,7 +5,6 @@ import styles from "./СonditionalRendering.module.css";
 
 const СonditionalRendering = (props) => {
   const [state, setState] = useState({ inputValue: "", result: [] });
-  
 
   const nandlePress = (e) => {
     if (e.key === "Enter") {
@@ -18,9 +17,11 @@ const СonditionalRendering = (props) => {
           inputValue: "",
         }));
       }
-      if (state.inputValue.toLowerCase() === "bla") {
+      if (state.inputValue.toLowerCase() === "contacts") {
         const res = [...state.result];
-        res.push("bla bla bla bla");
+        res.push(
+          "Напишите нам в соц. сетях или на почту cyberware.ed@gmail.com, мы открыты для обсуждения любых вопросов. Телеграм (https://t.me/cyberwares), Инстаграм (https://www.instagram.com/cyber__ware/)"
+        );
         setState((prev) => ({
           result: res,
           inputValue: "",
@@ -39,7 +40,9 @@ const СonditionalRendering = (props) => {
 
   return (
     <>
-      {state.result && state.result.length !== 0 && state.result.map((i) => <p>{i}</p>)}
+      {state.result &&
+        state.result.length !== 0 &&
+        state.result.map((i) => <p>{i}</p>)}
       <form className={styles.form}>
         <label className={styles.label}> {"> "}Командная строка $ :</label>
         <input

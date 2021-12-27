@@ -9,6 +9,7 @@ import About from "./СonditionalRendering/About/About";
 import Roadmap from "./СonditionalRendering/Roadmap/Roadmap";
 import HeaderBtn from "../Header/HeaderBtn/HeaderBtn";
 import Contacts from "./СonditionalRendering/Contacts/Contacts";
+import Faq from "./СonditionalRendering/Faq/Faq";
 
 const Terminal = (props) => {
   return (
@@ -29,7 +30,7 @@ const Terminal = (props) => {
           <Routes>
             <Route path={"/about"} element={<About />} />
             <Route path={"/roadmap"} element={<Roadmap />} />
-            <Route path={"/faq"} element={<div>faq faq faq faq faq</div>} />
+            <Route path={"/faq"} element={<Faq />} />
             <Route path={"/contacts"} element={<Contacts />} />
           </Routes>
         </div>{" "}

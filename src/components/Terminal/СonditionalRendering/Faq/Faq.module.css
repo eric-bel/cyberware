@@ -1,0 +1,27 @@
+.headline {
+  text-decoration: underline;
+}
+
+.faq {
+  margin-top: 20px;
+  /* color: #fabce3ff; */
+  color: #e08ac1;
+  background-color: #021422;
+  padding-left: 20px;
+  padding-right: 15px;
+  padding-top: 5px;
+  border-radius: 6px;
+  padding-bottom: 30px;
+}
+
+
+
+.answer {
+  /* color: forestgreen; */
+  /* color: #00827EFF; */
+  color: #078682;
+}
+
+.span {
+  color: #5ae1e5ff;
+}

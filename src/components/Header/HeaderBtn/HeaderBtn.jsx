@@ -6,6 +6,15 @@ const HeaderBtn = (props) => {
   return (
     <>
       <NavLink
+        to={"/home"}
+        style={(params) => {
+          return { backgroundColor: params.isActive ? "#092133" : "" };
+        }}
+        className={styles.home}
+      >
+        Главное
+      </NavLink>
+      <NavLink
         to={"/about"}
         style={(params) => {
           return { backgroundColor: params.isActive ? "#092133" : "" };
@@ -13,15 +22,6 @@ const HeaderBtn = (props) => {
         className={styles.about}
       >
         О нас
-      </NavLink>
-      <NavLink
-        to={"/roadmap"}
-        style={(params) => {
-          return { backgroundColor: params.isActive ? "#092133" : "" };
-        }}
-        className={styles.programms}
-      >
-        Программа курса
       </NavLink>
 
       <NavLink

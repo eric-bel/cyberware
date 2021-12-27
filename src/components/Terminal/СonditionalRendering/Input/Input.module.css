@@ -7,24 +7,9 @@
   color: #fec303;
   font-size: 15px;
   align-items: flex-end;
-}
-@media (max-width: 480px) {
-  .label {
-    color: red;
-  }
+  font-size: 9px;
 }
 
-/* .form .typecommand {
-  margin-right: 15px;
-  color: #fec303;
-  font-size: 15px;
-  color: transparent;
-  text-shadow: 0 0 0 #2196f3;
-} */
-
-.label ::before {
-  content: icon;
-}
 
 .form {
   display: flex;

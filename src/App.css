@@ -45,4 +45,9 @@
     max-width: 1600px;
   }
 } */
-/*  after migration 2*/
+
+@media (max-width: 600px) {
+  .form .label {
+    color: #dd4a36;
+  }
+}

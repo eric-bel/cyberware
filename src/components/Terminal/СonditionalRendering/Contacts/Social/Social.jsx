@@ -19,7 +19,7 @@ const Social = () => {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://www.instagram.com/cyber__ware/?utm_medium=copy_link"
+              href="https://www.instagram.com/cyber__ware/"
             >
               <RiInstagramLine className={styles.instagram} />
             </a>
