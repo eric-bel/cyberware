@@ -23,5 +23,6 @@
 }
 
 .span {
-  color: #5ae1e5ff;
+  /* color: #5ae1e5ff; */
+  color: red;
 }
