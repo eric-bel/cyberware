@@ -6,7 +6,7 @@ import styles from "./СonditionalRendering.module.css";
 const СonditionalRendering = (props) => {
   const [state, setState] = useState({ inputValue: "", result: [] });
 
-  const nandlePress = (e) => {
+  const handlePress = (e) => {
     if (e.key === "Enter") {
       e.preventDefault();
       if (state.inputValue.toLowerCase() === "about") {
@@ -53,7 +53,7 @@ const СonditionalRendering = (props) => {
           autoComplete="off"
           value={state.inputValue}
           onChange={showInputValue}
-          onKeyDown={nandlePress}
+          onKeyDown={handlePress}
         />
       </form>
     </>
