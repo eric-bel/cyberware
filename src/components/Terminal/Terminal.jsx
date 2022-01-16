@@ -19,7 +19,7 @@ const Terminal = (props) => {
         <div className={styles.termcontent}>
           <div className={styles.greeting}>
             {" > "}Welcome to programming school
-            <div className={styles.logotitle}>Cyber Ware test</div>
+            <div className={styles.logotitle}>Cyber Ware</div>
             {/* <img className={styles.logo} src={logo} alt="logo" /> */}
           </div>
 
@@ -39,4 +39,5 @@ const Terminal = (props) => {
   );
 };
 
+// before installing react-responsive 16/01/2020 04:45
 export default React.memo(Terminal);
