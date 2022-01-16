@@ -19,7 +19,7 @@ const Terminal = (props) => {
         <div className={styles.termcontent}>
           <div className={styles.greeting}>
             {" > "}Welcome to programming school
-            <div className={styles.logotitle}>Cyber Ware</div>
+            <div className={styles.logotitle}>Cyber Ware test</div>
             {/* <img className={styles.logo} src={logo} alt="logo" /> */}
           </div>
 
