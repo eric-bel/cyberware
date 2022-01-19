@@ -39,8 +39,7 @@ details[open] summary {
 }
 
 .span {
-  /* color: #5ae1e5ff; */
-  color: red;
+  color: #5ae1e5ff;
 }
 
 hr {
@@ -50,4 +49,5 @@ hr {
 
 .ask {
   margin-top: 30px;
+  opacity: 0.6;
 }
