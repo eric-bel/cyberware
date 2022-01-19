@@ -1,7 +1,3 @@
-.headline {
-  text-decoration: underline;
-}
-
 .faq {
   margin-top: 20px;
   /* color: #fabce3ff; */
@@ -14,9 +10,29 @@
   padding-bottom: 30px;
 }
 
+details {
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  padding: .5em .5em 0;
+}
 
+summary {
+  font-weight: bold;
+  margin: -.5em -.5em 0;
+  padding: .5em;
+}
+
+details[open] {
+  padding: .5em;
+}
+
+details[open] summary {
+  border-bottom: 1px solid #aaa;
+  margin-bottom: .5em;
+}
 
 .answer {
+  margin-top: 10px;
   /* color: forestgreen; */
   /* color: #00827EFF; */
   color: #078682;
@@ -25,4 +41,13 @@
 .span {
   /* color: #5ae1e5ff; */
   color: red;
+}
+
+hr {
+  border: none;
+  border-top: 0.4px solid grey;
+}
+
+.ask {
+  margin-top: 30px;
 }
